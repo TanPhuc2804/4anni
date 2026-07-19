@@ -726,7 +726,7 @@
         const bodyText = message + '\n\n— Gửi lúc: ' + new Date().toLocaleString('vi-VN');
 
         // Gọi API tới backend Vercel của bạn
-        const response = await fetch('http://backend-email-zdtp.vercel.app/api/send-email', {
+        const response = await fetch('https://backend-email-zdtp.vercel.app/api/send-email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
